@@ -1,32 +1,27 @@
-.box{
-	background-color:greenyellow;
-	position:fixed;
+.box {
+	background-color: greenyellow;
+	position: fixed;
 	overflow: hidden;
-	width:100%;
-	height:50px;
+	width: 100%;
+	height: 50px;
 	margin: 0px;
 	top: -10px;
 	left: -10px;
 	right: -10px;
 
 }
-html{
-	height:100%;
+
+html {
+	height: 100%;
 	background:
-	linear-gradient(
-		darkred,
-		transparent
-	),
-	linear-gradient(
-		90deg,
-		blue,
-		transparent
-	),
-	linear-gradient(
-		-90deg,
-		blue,
-		transparent
-	);
+		linear-gradient(darkred,
+			transparent),
+		linear-gradient(90deg,
+			blue,
+			transparent),
+		linear-gradient(-90deg,
+			blue,
+			transparent);
 	background-attachment: fixed;
 	background-size: cover;
 	background-blend-mode: screen;
@@ -34,55 +29,65 @@ html{
 	background-repeat: no-repeat;
 
 }
-.box>a{
-	margin:10px;
-	text-align:center;
+
+.box>a {
+	margin: 10px;
+	text-align: center;
 	text-decoration: none;
-	font-size:34px;
-	float:left;
+	font-size: 34px;
+	float: left;
 }
-.lol{
+
+.lol {
 	margin-left: 40%;
 	margin-right: 40%;
-	float:center;
+	float: center;
 	position: absolute;
-	top:0px;
+	top: 0px;
 	font-size: 18px;
 	color: white;
 
 }
-*{
+
+* {
 	margin: 1%;
 	padding: 10;
 	box-sizing: border-box;
-	font-family: "cute font",cursive;
+	font-family: "cute font", cursive;
 }
-.box a.active{
+
+.box a.active {
 	background-color: darkgray;
-	color:white;
+	color: white;
 
 }
-.top{
+
+.top {
 	text-align: center;
 }
-#textinput{
-	width:100%;
-	text-align:left;
-	margin:0px;
+
+#textinput {
+	width: 100%;
+	text-align: left;
+	margin: 0px;
 }
-.box a.active1{
+
+.box a.active1 {
 	text-align: right;
 	color: white;
 	background-color: darkgray;
 	right: -10px;
 	left: -10px;
 }
-#form2{
-	text-align:center;
+
+#form2 {
+	text-align: center;
 }
-#form3{
-	text-align:center;
+
+#form3 {
+	text-align: center;
 }
-.box3{
+
+.box3 {
 	display: inline-block;
 }
